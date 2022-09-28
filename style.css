@@ -1,0 +1,173 @@
+
+
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+    }
+
+    body {max-width: 95%; 
+	   margin: auto;
+	   font-family: 'Segoe UI Regular', sans-serif;}
+
+header { 
+	     }
+
+#bannierenoir {background-color: #2f2f2c ;
+   display: flex;
+	justify-content: space-between;
+	padding: 5px; 
+	padding-left: 120px;
+	padding-right: 120px;
+	color: white;
+font-size: 14px;
+}
+
+ 
+ nav {background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/business-logo-design-template-78655edda18bc1196ab28760f1535baa_screen.jpg?ts=1617645324");
+ 	   background-repeat: no-repeat;
+      background-size: contain;}
+ 
+ #logopetit{width: 40px;
+ 	        object-fit: cover;}
+ 
+ nav ul {list-style-type: none;
+ 	      display: flex; 
+ 	      }
+ li{background-repeat: no-repeat;
+   background-size: contain;
+   padding-left: 30px; }
+
+
+ nav a {color: white; 
+ 	     text-decoration: none;
+ 	     }
+ #login p {background-image: url(https://png.pngtree.com/png-vector/20191110/ourmid/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg);
+      background-repeat: no-repeat;
+      background-size: contain; 
+      padding-left: 20px;}
+
+a:hover{color: yellow;}
+
+#bannierebleu {background-color: #1e93cc; 
+	           color: white;
+	           display: flex;
+	           justify-content: space-around;
+	           height: 400px;
+	           padding-right: 150px;
+	           padding-left: 50px;
+	            }
+#logogrand{width: 100px;
+	text-align: center; 
+	margin: auto;}
+
+#start {max-width: 500px;
+	margin: auto;
+	text-align: center;}
+#start h1{ }
+h1{font-size: 30px;
+	letter-spacing: -2px;}
+
+h3{font-size: 23px;}
+#button{background-color: #e88f02; 
+	border: solid 1px white; 
+	border-radius: 10px;
+padding: 20px;
+width: 250px;
+margin: auto;}
+
+#intro h1{text-align: center;}
+
+#description{display: flex; 
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color:#1e93cc ;
+	color: white;
+	height: 400px;
+}
+
+.bloc {width: 45%; }
+
+#companies {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color:#ebeceb ;
+	color: black;
+	height: 400px;
+text-align: center;}
+
+#logocompanies{display: flex; 
+	justify-content: space-between;
+padding-right: 100px;
+padding-left: 100px;
+padding-top: 50px;
+padding-bottom: 50px;}
+
+.logo {width: 100px;}
+#chats {height: 200px;
+ }
+
+#buttons {display: flex;
+	       justify-content: space-around;
+padding-right: 250px;
+padding-left: 250px;
+}
+#button1, #button2{width: 200px;}
+#button1{background-color: #165881;
+border: solid 1px white;
+border-radius: 10px;
+color: white;
+text-align: center;
+padding: 15px}
+
+#button2{background-color: #e88f02;
+border: solid 1px white;
+border-radius: 10px;
+color: white;
+text-align: center;
+padding: 15px}
+
+footer {background-color: #2f2f2c;
+color: white;
+display: flex;
+justify-content: space-between;}
+#talk{position: fixed;bottom: 10px; right: 10px;}
+footer ul {list-style-type: none;
+display: flex;}
+footer a {color: white;
+text-decoration: none;}
+footer p {padding-right: 100px;}
+
+
+
